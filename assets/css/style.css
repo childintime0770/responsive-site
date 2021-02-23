@@ -2,16 +2,11 @@
     font-family: "segoe-ui";
 }
 
-
-.background {
-    width: 100%;
-    height: 850px;
+body {
     background-image: url(../images/background1.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position-x: center;
-    position: absolute;
-    z-index: -1;
 }
 
 .header {
@@ -38,7 +33,7 @@
 }
 
 .navigation {
-    width: 60%;
+    width: 800px;
     font-size: 20px;
 }
 
@@ -48,6 +43,7 @@
 
 .button {
     font-family: 'raleway';
+    margin: auto;
     width: 222px;
     height: 68px;
     background-color: #572bd9;
@@ -96,12 +92,11 @@
 }
 
 .inkyy-section {
-    margin: auto;
-    width: 71%;
-    position: absolute;
-    bottom: -251px;
+    padding: 0px 250px;
+    position: relative;
     left: 0;
     right: 0;
+    top: -56px;
 }
 
 .logo-inkyy {
@@ -116,7 +111,7 @@
 .second-background {
     background-color: #fbfcfe;
     height: calc(100vh - 80px);
-    margin-top: 215px;
+    margin-top: 130px;
 }
 
 .second-background header {
@@ -139,7 +134,7 @@
 
 .foo-bar {
     padding-top: 130px;
-    width: 71%;
+    width: 1300px;
     margin: auto;
 }
 
@@ -189,7 +184,7 @@
 }
 
 .add-padding {
-    padding: 7%;
+    padding: 7% 7% 0 7%;
 }
 
 .add-parameters {
@@ -219,5 +214,220 @@
     position: absolute;
     z-index: -1;
 }
+
+.third-background {
+    margin-top: 100px;
+    background-image: url(../images/background2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    height: 629px;
+}
+
+.font {
+    font-family: aspira;
+    font-weight: 200;
+    letter-spacing: 2.5px;
+}
+
+.max-size {
+    width: 810px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.size {
+    width: 500px;
+    padding-top: 20px;
+    
+}
+
+.text {
+    max-width: 400px;
+    color: #b1bdcd;
+    line-height: 1.5;
+}
+
+.background-size {
+    width: 60px;
+    height: 60px;
+}
+
+.background-size img {
+    filter: initial;
+}
+
+
+.foo {
+    padding-left: 270px;
+    font-family: 'aspira';
+    font-weight: 400;
+}
+
+.list {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.personal-window {
+    position: relative;
+    text-align: center;
+}
+
+.personal-window img {
+    position: absolute;
+    top: -43px;
+    left: 167px;
+}
+
+.personal-window span {
+    color: #b1bdcd;
+    padding-top: 18px;
+    display: block;
+    font-size: 20px;
+}
+
+.stars {
+    padding-top: 30px;
+}
+
+.clip-star {
+    background: gold;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
+
+.circles {
+    width: 80px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.clip-circle {
+    background-color: #b1bdcd;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.blue-circle {
+    background-color: #6736f9;
+}
+
+.fourth-background {
+    height: 100vh;
+    background-image: url(../images/background3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+}
+
+.fourth-background h3 {
+    max-width: 800px;
+    margin: auto;
+}
+
+.add-height {
+    padding: 35px;
+    height: 740px;
+    width: 410px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.add-height h3 {
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.add-height h2 {
+    font-size: 75px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.add-height h4 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.add-height p {
+    padding-top: 40px;
+    color: black;
+}
+
+.add-height ul {
+    text-align: left;
+    padding: 40px 0 90px 35px;
+}
+
+.window-list {
+    padding-bottom: 15px;
+}
+
+.window-list div {
+    display: inline-block;
+}
+
+.window-list span {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 22px;
+    color: #b1bdcd;
+}
+
+.blue-window {
+    background-color: #6837fa;
+    color: white;
+}
+
+.blue-window p {
+    color: white;
+}
+
+.blue-window ul li span {
+    color: white;
+}
+
+.blue-window ul li img {
+    filter: brightness(0) invert(1);
+}
+
+.top-margin {
+    margin-top: 0;
+}
+
+.top-margin header{
+    width: 870px;
+}
+
+.question-list ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 280px 0;
+    flex-wrap: wrap;
+}
+
+.question-list ul li div{
+    display: inline-block;
+    vertical-align: bottom;
+    padding-bottom: 50px;
+}
+
+.question-list h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.question-list p {
+    max-width: 470px;
+    padding-top: 20px;
+    color: #b1bdcd;
+    font-size: 20px;
+}
+
 
 
