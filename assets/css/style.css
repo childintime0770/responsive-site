@@ -58,6 +58,7 @@ body {
     width: 180px;
     height: 60px;
     letter-spacing: 0;
+    margin: 0;
 }
 
 .title {
@@ -73,6 +74,9 @@ body {
 .title h3 {
     padding-top: 31px;
     font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+    color: #cfdeed;
 }
 
 .button-section {
@@ -317,7 +321,7 @@ body {
 }
 
 .fourth-background {
-    height: 100vh;
+    height: calc(100vh + 200px);
     background-image: url(../images/background3.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -428,6 +432,129 @@ body {
     color: #b1bdcd;
     font-size: 20px;
 }
+
+.contact-form {
+    padding-top: 100px;
+    max-width: 720px;
+    margin: auto;
+}
+
+.contact-form input{
+    width: 700px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: #fbfcfe;
+    border-color: #bfcfde;
+    font-size: 25px;
+    padding-left: 30px;
+    margin-bottom: 35px;
+}
+
+.contact-form .message-input {
+    height: 320px;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.five-background {
+    margin-top: 100px;
+    background-image: url(../images/backgrpund4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    height: 629px;
+}
+
+.five-background .title {
+    padding-top: 250px;
+}
+
+.footer {
+    font-family: 'segoe-ui';
+}
+
+.about-temp {
+    max-width: 300px;
+}
+
+.about-temp p {
+    padding-top: 40px;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #bfcfde;
+}
+
+.footer h3 {
+    font-size: 35px;
+}
+
+.footer-list li {
+    padding-top: 40px;
+}
+
+.footer-list a {
+    font-size: 20px;
+    color: #bfcfde;
+}
+
+.footer-list .no-padding-li {
+    padding-top: 0;
+}
+
+.footer-form input {
+    position: relative;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #fbfcfe;
+    border-color: #bfcfde;
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+.sub-button {
+    position: absolute;
+    right: 0px;
+}
+
+.sub-section {
+    padding: 40px 0;
+    position: relative;
+    width: 500px;
+}
+
+.footer-div {
+    align-items: flex-start;
+}
+
+.footer-form nav img {
+    margin-right: 15px;
+}
+
+.six-background {
+    height: 120px;
+    background-color: #572bd9;
+    margin-top: 130px;
+    padding: 0 300px;
+}
+
+
+
+.footer-link {
+    color: white;
+}
+
+.footer-link a {
+    color: white;
+}
+
+
+
+
+
+
 
 
 
