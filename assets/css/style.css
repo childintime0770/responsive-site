@@ -9,11 +9,13 @@ body {
     background-position-x: center;
 }
 
+.padding-210px {
+    padding: 0px 210px;
+}
+
 .header {
     font-family: "raleway";
     padding-top: 39px;
-    width: 71%;
-    margin: auto;
     color: white;
 }
 
@@ -24,7 +26,8 @@ body {
 }
 
 .logo {
-    width: 280px;
+    width: 300px;
+    margin-right: 40px;
 }
 
 .logo h2 {
@@ -64,7 +67,7 @@ body {
 .title {
     text-align: center;
     color: white;
-    padding-top: 116px;
+    padding-top: 90px;
 }
 
 .title h2 {
@@ -89,19 +92,21 @@ body {
     background-color: #ffdd33;
 }
 
-.pc-image {
-    display: block;
-    margin: auto;
-    padding-top: 52px;
+.image-section {
+    max-width: 1099px;
+    height: 777px;
+    box-sizing: border-box;
+    margin: 57px auto 0;
 }
 
-.inkyy-section {
-    padding: 0px 250px;
-    position: relative;
-    left: 0;
-    right: 0;
-    top: -56px;
+.pc-image {
+    width: 100%;
 }
+
+.inkyy {
+    position: relative;
+}
+
 
 .logo-inkyy {
     font-family: 'raleway';
@@ -113,7 +118,7 @@ body {
 }
 
 .second-background {
-    background-color: #fbfcfe;
+    background-color: #ebecef;
     height: calc(100vh - 80px);
     margin-top: 130px;
 }
@@ -188,16 +193,18 @@ body {
 }
 
 .add-padding {
-    padding: 7% 7% 0 7%;
+    margin: 100px auto 0;
+    max-width: 1500px;
+    padding: 0 80px;
 }
 
 .add-parameters {
-    width: 815px;
+    width: 50%;
     height: 585px;
 }
 
 .add-position {
-    width: 715px;
+    width: 45%;
     text-align: left;
     padding-top: 0;
 }
@@ -207,6 +214,7 @@ body {
     line-height: 1.5;
     max-width: 600px;
     color: #b1bdcd;
+    margin: 0;
 }
 
 .background-2 {
@@ -263,7 +271,6 @@ body {
 
 
 .foo {
-    padding-left: 270px;
     font-family: 'aspira';
     font-weight: 400;
 }
@@ -306,7 +313,7 @@ body {
 .circles {
     width: 80px;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .clip-circle {
@@ -321,10 +328,9 @@ body {
 }
 
 .fourth-background {
-    height: calc(100vh + 200px);
+    height: 1319px;
     background-image: url(../images/background3.png);
     background-repeat: no-repeat;
-    background-size: 100%;
     background-position-x: center;
 }
 
@@ -339,7 +345,6 @@ body {
     width: 410px;
     text-align: center;
     border-radius: 10px;
-
 }
 
 .add-height h3 {
@@ -411,8 +416,10 @@ body {
 .question-list ul{
     display: flex;
     justify-content: space-between;
-    padding: 100px 280px 0;
     flex-wrap: wrap;
+    width: 1250px;
+    margin: auto;
+    padding-top: 100px;
 }
 
 .question-list ul li div{
@@ -468,7 +475,7 @@ body {
 }
 
 .five-background .title {
-    padding-top: 250px;
+    padding-top: 180px;
 }
 
 .footer {
@@ -544,6 +551,7 @@ body {
 
 .footer-link {
     color: white;
+    width: 300px;
 }
 
 .footer-link a {
